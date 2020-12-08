@@ -1,0 +1,31 @@
+###
+GET http://localhost:4000/api/employees
+
+###
+POST  http://localhost:4000/api/employees
+Content-Type: application/json
+
+{
+    "name": "Alejandro Rojas",
+    "position": "Junior Developer",
+    "office": "Dev",
+    "salary": 5000000
+}
+
+###
+GET http://localhost:4000/api/employees/5fcfe96ec928ea3ebcde69e0
+
+###
+DELETE http://localhost:4000/api/employees/5fcfe933c928ea3ebcde69df
+
+###
+PUT http://localhost:4000/api/employees/5fcfe96ec928ea3ebcde69e0
+Content-Type: application/json
+
+{
+    "name": "Marlon Lopez",
+    "position": "SEO AND SEN",
+    "office": "Marketing Digital",
+    "salary": 9000000
+}
+
