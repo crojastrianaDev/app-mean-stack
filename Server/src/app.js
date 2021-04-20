@@ -1,7 +1,9 @@
 const express = require("express"); //importamos express
 const morgan = require("morgan");
+const cors = require("cors");
 //crearmos la app con express
 const app = express();
+app.use(cors({ origin: "http://localhost:4200" }));
 
 //puerto donde correra y environment variables
 //que tome el puerto definido, si no usa el 4100
