@@ -5,8 +5,8 @@ const employeesCtrl = require("../controllers/employees.controllers");
 
 //crud
 //create -  read - update - delete
-// router.get("/hello", (req, res) => res.send("Hola desde node y express"));
-router.get("/hello", employeesCtrl.deleteEmployee);
+router.get("/helloN", (req, res) => res.send("Hola desde node y express"));
+//router.get("/hello", employeesCtrl.deleteEmployee);
 
 //primerro llegara api/employees
 router.get("/", employeesCtrl.getEmproyees);

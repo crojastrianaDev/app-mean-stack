@@ -4,7 +4,7 @@ const morgan = require("morgan");
 const app = express();
 
 //puerto donde correra y environment variables
-//que tome el puerto definido, si no use el 4000
+//que tome el puerto definido, si no usa el 4100
 app.set("port", process.env.PORT || 4000);
 
 //escuchar las peticiones con morgan
